@@ -4,6 +4,10 @@
     var Quiz = function(contestData) {
 	this.contest = contestData;
     };
+    console.log("HELLO WORLD!!!!!!!!!!!!!!!!!");
+    console.log("HOLA MUNDO!!!!!!!!!!!!!!!!!!");
+    console.log(Quiz);
+    console.log(window.innerHeight);
 
     Quiz.prototype.isSelect = function(tagName) {
 	return tagName.toUpperCase() === 'SELECT'; 

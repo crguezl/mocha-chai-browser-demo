@@ -93,6 +93,7 @@ describe('Main function', function() {
     });
 });
 
+/*********/
 describe('Initialization', function() {
     'use strict';
     it('should initialize the main object', function() {
